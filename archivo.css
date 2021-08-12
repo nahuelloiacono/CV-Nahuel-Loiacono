@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Mobile */
+
+/* Adecuar CSS a tamaño móvil */
+
+body {
+  background-color: white;
+}
+
+/* Encabezados */
+
+h1 {
+  background: linear-gradient(to bottom, black, rgb(255, 166, 0));
+  color: white;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  margin: 10px 0px 10px 0px;
+  padding: 75px 10px 75px 10px;
+  position: relative;
+  text-align: center;
+  animation-name: efectoTitulo;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 10s;
+  animation-delay: 0s;
+}
+
+@keyframes efectoTitulo {
+  20% {
+    font-size: 55px;
+    color: yellow;
+  }
+  40% {
+    font-size: 60px;
+    color: orange;
+  }
+  60% {
+    font-size: 65px;
+    color: red;
+  }
+  80% {
+    font-size: 70px;
+    color: black;
+  }
+}
+
+.h1Estilos {
+  text-decoration: underline white;
+}
+
+h2 {
+  background-color: rgb(255, 170, 30);
+  color: white;
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 10px 10px 10px 10px;
+  padding: 50px 10px 50px 10px;
+  text-align: center;
+}
+
+article {
+  margin: 10px 20px 10px 20px;
+  padding: 0px 10px 10px 10px;
+}
+
+article h3 {
+  background-color: rgb(15, 15, 15);
+  color: orange;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin: 0px;
+  padding: 25px 10px 25px 10px;
+  text-align: center;
+}
+
+/* Nav */
+
+nav ul {
+  background: radial-gradient(rgb(73, 73, 73), black);
+  display: block;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+nav ul li {
+  background: radial-gradient(rgb(255, 164, 28), rgb(255, 255, 255));
+  border-color: rgb(255, 166, 0);
+  border-style: groove;
+  border-width: 10px;
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  list-style-type: none;
+  margin: 50px 25px 50px 25px;
+  padding: 20px 20px 20px 20px;
+  position: sticky;
+  text-transform: uppercase;
+}
+
+nav ul li:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/* Enlaces */
+
+ul li a {
+  color: black;
+  text-decoration: none;
+  transition: all 0s;
+}
+
+ul li a:hover {
+  color: orangered;
+}
+
+div a {
+  text-decoration: none;
+}
+
+p a {
+  color: blue;
+  text-decoration: none;
+}
+
+/* Párrafos */
+
+.divIndex {
+  margin: auto;
+  padding: 10px 100px 10px 100px;
+}
+
+.parrafosInfo {
+  background-color: rgb(253, 200, 50);
+  color: black;
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin: 0px;
+  padding: 10px 100px 10px 100px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Footer */
+
+.footer {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footerFlex {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowwrap;
+  justify-content: center;
+}
+
+.footerFlexHijos {
+  align-self: auto;
+  font-family: "Courier New", Courier, monospace;
+  font-style: normal;
+  font-weight: normal;
+  flex-basis: initial;
+  flex-grow: initial;
+  flex-shrink: auto;
+  margin: 10px 10px 10px 10px;
+  order: auto;
+  padding: 10px 10px 10px 10px;
+}
+
+footer section img:hover {
+  transform: scale(1.5, 1.5);
+}
+
+small {
+  color: rgb(30, 30, 30);
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Formación */
+
+/* Table */
+
+table {
+  background: linear-gradient(to bottom, rgb(253, 200, 50), rgb(255, 215, 140));
+  background-color: rgb(253, 200, 50);
+  border-color: rgb(0, 0, 0);
+  border-inline-width: 10px;
+  border-spacing: 0px;
+  border-style: double;
+  border-width: 10px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding: 0px;
+  text-align: center;
+  width: 80%;
+}
+
+/* Hobbies */
+
+.gridHobbies {
+  background-color: white;
+  border: none;
+  display: grid;
+  grid-template-areas: "deportes peliculas series libros";
+  grid-template-columns: auto;
+  grid-template-rows: (4, 1fr);
+  justify-content: space-between;
+  justify-items: center;
+  margin: 10px 10px 10px 10px;
+}
+
+.gridDeportes {
+  border: none;
+  grid-area: deportes;
+}
+
+.gridPeliculas {
+  border: none;
+  grid-area: peliculas;
+}
+
+.gridSeries {
+  border: none;
+  grid-area: series;
+}
+
+.gridLibros {
+  border: none;
+  grid-area: libros;
+}
+
+.parrafosHobbies {
+  background-color: rgb(253, 200, 50);
+  color: black;
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin: 0px;
+  padding: 10px 20px 10px 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* Contacto */
+
+/* Form */
+
+form {
+  background-color: rgb(253, 200, 50);
+  border: none;
+  color: black;
+  display: block;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin: 0px 250px 0px 250px;
+  padding: 25px;
+  text-align: center;
+}
+
+.estiloCamposFormulario {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.opcionesFormulario {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+
+.parrafosFormulario {
+  color: black;
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+fieldset {
+  border: black;
+  border-style: double;
+  border-width: 10px;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Agregar modificaciones */
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1024px) {
+  /* Agregar modificaciones */
+}

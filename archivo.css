@@ -14,17 +14,14 @@ body {
 /* Encabezados */
 
 h1 {
-  background: linear-gradient(to bottom, black, rgb(255, 166, 0));
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 166, 0));
   color: white;
   display: block;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
   font-style: normal;
   font-weight: bolder;
-  letter-spacing: 2px;
-  margin: 10px 0px 10px 0px;
-  padding: 75px 10px 75px 10px;
-  position: relative;
+  letter-spacing: 1px;
+  padding: 20px;
   text-align: center;
   animation-name: efectoTitulo;
   animation-iteration-count: infinite;
@@ -34,26 +31,18 @@ h1 {
 }
 
 @keyframes efectoTitulo {
-  20% {
-    font-size: 55px;
-    color: yellow;
-  }
-  40% {
-    font-size: 60px;
+  25% {
+    font-size: 20px;
     color: orange;
   }
-  60% {
-    font-size: 65px;
+  50% {
+    font-size: 25px;
     color: red;
   }
-  80% {
-    font-size: 70px;
+  75% {
+    font-size: 30px;
     color: black;
   }
-}
-
-.h1Estilos {
-  text-decoration: underline white;
 }
 
 h2 {
@@ -61,31 +50,26 @@ h2 {
   color: white;
   display: block;
   font-family: "Times New Roman", Times, serif;
-  font-size: 30px;
   font-style: normal;
   font-weight: bold;
-  letter-spacing: 2px;
-  margin: 10px 10px 10px 10px;
-  padding: 50px 10px 50px 10px;
+  letter-spacing: 1px;
+  padding: 20px 10px 20px 10px;
   text-align: center;
 }
 
 article {
-  margin: 10px 20px 10px 20px;
-  padding: 0px 10px 10px 10px;
+  padding: 0px;
 }
 
 article h3 {
   background-color: rgb(15, 15, 15);
   color: orange;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
   font-style: normal;
   font-weight: bold;
   letter-spacing: 1px;
   line-height: 1.5;
-  margin: 0px;
-  padding: 25px 10px 25px 10px;
+  padding: 15px 10px 15px 10px;
   text-align: center;
 }
 
@@ -94,7 +78,7 @@ article h3 {
 nav ul {
   background: radial-gradient(rgb(73, 73, 73), black);
   display: block;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 1.5;
   text-align: center;
 }
@@ -106,13 +90,12 @@ nav ul li {
   border-width: 10px;
   display: inline-block;
   font-family: "Times New Roman", Times, serif;
-  font-size: 15px;
   font-style: normal;
   font-weight: bolder;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   list-style-type: none;
-  margin: 50px 25px 50px 25px;
-  padding: 20px 20px 20px 20px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
   position: sticky;
   text-transform: uppercase;
 }
@@ -144,23 +127,16 @@ p a {
 
 /* Párrafos */
 
-.divIndex {
-  margin: auto;
-  padding: 10px 100px 10px 100px;
-}
-
 .parrafosInfo {
   background-color: rgb(253, 200, 50);
   color: black;
   display: block;
   font-family: "Times New Roman", Times, serif;
-  font-size: 15px;
   font-style: italic;
   font-weight: normal;
   letter-spacing: 1px;
   line-height: 1.5;
-  margin: 0px;
-  padding: 10px 100px 10px 100px;
+  padding: 0px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -171,7 +147,6 @@ p a {
   background-color: white;
   color: rgb(0, 0, 0);
   font-family: "Courier New", Courier, monospace;
-  font-size: 15px;
   font-style: italic;
   letter-spacing: 1px;
   line-height: 1.5;
@@ -196,7 +171,6 @@ p a {
   flex-basis: initial;
   flex-grow: initial;
   flex-shrink: auto;
-  margin: 10px 10px 10px 10px;
   order: auto;
   padding: 10px 10px 10px 10px;
 }
@@ -225,7 +199,6 @@ table {
   color: black;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
-  font-size: 15px;
   letter-spacing: 1px;
   line-height: 1.5;
   padding: 0px;
@@ -244,7 +217,6 @@ table {
   grid-template-rows: (4, 1fr);
   justify-content: space-between;
   justify-items: center;
-  margin: 10px 10px 10px 10px;
 }
 
 .gridDeportes {
@@ -272,12 +244,10 @@ table {
   color: black;
   display: block;
   font-family: "Times New Roman", Times, serif;
-  font-size: 15px;
   font-style: italic;
   font-weight: normal;
   letter-spacing: 1px;
   line-height: 1.5;
-  margin: 0px;
   padding: 10px 20px 10px 20px;
   text-align: left;
   text-transform: uppercase;
@@ -294,7 +264,6 @@ form {
   display: block;
   letter-spacing: 1px;
   line-height: 1.5;
-  margin: 0px 250px 0px 250px;
   padding: 25px;
   text-align: center;
 }
@@ -307,7 +276,6 @@ form {
 
 .opcionesFormulario {
   font-family: "Times New Roman", Times, serif;
-  font-size: 12px;
   letter-spacing: 1px;
   word-spacing: 5px;
 }
@@ -316,11 +284,9 @@ form {
   color: black;
   display: block;
   font-family: "Times New Roman", Times, serif;
-  font-size: 12px;
   font-weight: normal;
   letter-spacing: 1px;
   line-height: 1.5;
-  margin: 0px;
   padding: 10px;
   text-align: center;
   text-transform: uppercase;

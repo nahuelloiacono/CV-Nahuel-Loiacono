@@ -94,8 +94,8 @@ nav ul li {
   font-weight: bolder;
   letter-spacing: 1px;
   list-style-type: none;
-  margin: 10px 10px 10px 10px;
-  padding: 10px 10px 10px 10px;
+  margin: 5px;
+  padding: 5px;
   position: sticky;
   text-transform: uppercase;
 }
@@ -126,6 +126,10 @@ p a {
 }
 
 /* Párrafos */
+
+.fondoPárrafos {
+  background-color: rgb(253, 200, 50);
+}
 
 .parrafosInfo {
   background-color: rgb(253, 200, 50);
@@ -192,10 +196,8 @@ table {
   background: linear-gradient(to bottom, rgb(253, 200, 50), rgb(255, 215, 140));
   background-color: rgb(253, 200, 50);
   border-color: rgb(0, 0, 0);
-  border-inline-width: 10px;
   border-spacing: 0px;
-  border-style: double;
-  border-width: 10px;
+  border-width: 5px;
   color: black;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
@@ -204,6 +206,17 @@ table {
   padding: 0px;
   text-align: center;
   width: 80%;
+}
+
+th {
+  border: black 5px solid;
+  background-color: rgb(255, 192, 20);
+  color: black;
+  font-weight: bolder;
+}
+
+td {
+  border: black 3px solid;
 }
 
 /* Hobbies */

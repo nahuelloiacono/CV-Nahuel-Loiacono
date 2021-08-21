@@ -221,49 +221,22 @@ td {
 
 /* Hobbies */
 
-.gridHobbies {
-  background-color: white;
-  border: none;
-  display: grid;
-  grid-template-areas: "deportes peliculas series libros";
-  grid-template-columns: auto;
-  grid-template-rows: (4, 1fr);
-  justify-content: space-between;
-  justify-items: center;
-}
-
-.gridDeportes {
-  border: none;
-  grid-area: deportes;
-}
-
-.gridPeliculas {
-  border: none;
-  grid-area: peliculas;
-}
-
-.gridSeries {
-  border: none;
-  grid-area: series;
-}
-
-.gridLibros {
-  border: none;
-  grid-area: libros;
-}
-
 .parrafosHobbies {
   background-color: rgb(253, 200, 50);
   color: black;
-  display: block;
+  display: grid;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: normal;
   letter-spacing: 1px;
   line-height: 1.5;
-  padding: 10px 20px 10px 20px;
+  padding: 5px;
   text-align: left;
   text-transform: uppercase;
+}
+
+.carousel {
+  background-color: black;
 }
 
 /* Contacto */

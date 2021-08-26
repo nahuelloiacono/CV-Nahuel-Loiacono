@@ -18,7 +18,7 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="archivo.css" />
+    <link rel="stylesheet" href="css/archivo.css" />
   </head>
 
   <body>
@@ -40,10 +40,10 @@
 
     <main>
       <article>
-        <h3>WhatsApp</h3>
-        <div class="fondoPárrafos">
-          <p class="parrafosInfo">+54 1132386092</p>
-          <p class="parrafosInfo">
+        <h3 class="párrafos__título">WhatsApp</h3>
+        <div class="párrafos__fondo">
+          <p class="párrafos__info">+54 1132386092</p>
+          <p class="párrafos__info">
             <a href="https://api.whatsapp.com/send?phone=541132386092"
               >Chatea conmigo</a
             >
@@ -52,10 +52,10 @@
       </article>
 
       <article>
-        <h3>Email</h3>
-        <div class="fondoPárrafos">
-          <p class="parrafosInfo">nloiacono94@gmail.com</p>
-          <p class="parrafosInfo">
+        <h3 class="párrafos__título">Email</h3>
+        <div class="párrafos__fondo">
+          <p class="párrafos__info">nloiacono94@gmail.com</p>
+          <p class="párrafos__info">
             <a
               href="mailto:direccion@destinatario.com?body=Este%20es%20el%20cuerpo%20del%20mensaje"
               >Mandame un mail</a
@@ -65,19 +65,19 @@
       </article>
 
       <article>
-        <h3>Formulario</h3>
+        <h3 class="párrafos__título">Formulario</h3>
       </article>
 
       <form action="">
         <fieldset>
-          <legend class="parrafosFormulario">¡ Contactame !</legend>
+          <legend class="form__párrafos">¡ Contactame !</legend>
 
           <p>
             <input
               name="Nombre"
               type="Nombre:"
               placeholder="Escribe tu nombre..."
-              class="estiloCamposFormulario"
+              class="form__campos"
             />
           </p>
 
@@ -86,7 +86,7 @@
               name="Apellido"
               type="Apellido:"
               placeholder="Escribe tu apellido..."
-              class="estiloCamposFormulario"
+              class="form__campos"
             />
           </p>
 
@@ -95,7 +95,7 @@
               name="Email"
               type="Email"
               placeholder="Escribe tu email..."
-              class="estiloCamposFormulario"
+              class="form__campos"
             />
           </p>
 
@@ -104,39 +104,50 @@
               name="Celular"
               type="Celular"
               placeholder="Escribe tu celular..."
-              class="estiloCamposFormulario"
+              class="form__campos"
             />
           </p>
 
-          <p class="parrafosFormulario">¿Cómo me encontraste?</p>
+          <p class="form__párrafos">¿Cómo me encontraste?</p>
 
-          <p class="opcionesFormulario">
-            Buscador web
-            <input
-              type="checkbox"
-              name="como me encontraste"
-              value="Buscador web"
-            />
+          <div class="container-fluid">
+            <div class="row">
+              <p class="form__opciones col-sm-12">
+                Buscador web
+                <input
+                  type="checkbox"
+                  name="como me encontraste"
+                  value="Buscador web"
+                />
+              </p>
+              <p class="form__opciones col-sm-12">
+                Conocidos
+                <input
+                  type="checkbox"
+                  name="Como me encontraste"
+                  value="Conocidos"
+                />
+              </p>
+              <p class="form__opciones col-sm-12">
+                Redes sociales
+                <input
+                  type="checkbox"
+                  name="Como me encontraste"
+                  value="Redes sociales"
+                />
+              </p>
+              <p class="form__opciones col-sm-12">
+                Otro
+                <input
+                  type="checkbox"
+                  name="Como me encontraste"
+                  value="Otro"
+                />
+              </p>
+            </div>
+          </div>
 
-            Conocidos
-            <input
-              type="checkbox"
-              name="Como me encontraste"
-              value="Conocidos"
-            />
-
-            Redes sociales
-            <input
-              type="checkbox"
-              name="Como me encontraste"
-              value="Redes sociales"
-            />
-
-            Otro
-            <input type="checkbox" name="Como me encontraste" value="Otro" />
-          </p>
-
-          <p class="parrafosFormulario">
+          <p class="form__párrafos">
             ¿Desea suscribirse al newsletter?
             <select name="Newsletter">
               <option value="si">Si</option>
@@ -144,14 +155,14 @@
             </select>
           </p>
 
-          <p class="parrafosFormulario">¡ Consultame lo que quieras !</p>
+          <p class="form__párrafos">¡ Consultá lo que quieras !</p>
           <p>
             <textarea
               name="Mensaje"
               cols="30"
               rows="10"
               placeholder="Escribe tu mensaje..."
-              class="estiloCamposFormulario"
+              class="form__campos"
             ></textarea>
           </p>
 

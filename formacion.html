@@ -18,7 +18,7 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="archivo.css" />
+    <link rel="stylesheet" href="css/archivo.css" />
   </head>
 
   <body>
@@ -40,31 +40,31 @@
 
     <main>
       <article>
-        <h3>
+        <h3 class="párrafos__título">
           Universitario - Licenciatura en Informática en UNAHUR (2021 - hoy)
         </h3>
-        <p class="parrafosInfo">
+        <p class="párrafos__info">
           -Aprobé el curso de ingreso y arranco con las primeras materias en el
           segundo cuatrimestre de 2021.
         </p>
       </article>
 
       <article>
-        <h3>
+        <h3 class="párrafos__título">
           Universitario - Licenciatura en Ciencias de la Comunicación en UBA
           (2013 - hoy)
         </h3>
-        <div class="fondoPárrafos">
+        <div class="párrafos__info">
 
-          <p class="parrafosInfo">
+          <p class="párrafos__info">
             -Aprobé las 39 materias que componen el plan de estudios (incluyendo
             CBC).
           </p>
-          <p class="parrafosInfo">
+          <p class="párrafos__info">
             -Ya entregué la tesina en julio de 2021, la cual está en proceso de
             evaluación.
           </p>
-          <p class="parrafosInfo">
+          <p class="párrafos__info">
             <a
             href="https://www.linkedin.com/in/nahuel-loiacono-b63917a0/detail/treasury/education:232512731/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAABV-MrsBAvi1Ccw_y7RzRtphqsIuw1tq30U%2C1635464914199)&section=education%3A232512731&treasuryCount=1"
             >Historia Académica UBA</a
@@ -74,8 +74,8 @@
       </article>
 
       <article>
-        <h3>Terciario - Periodismo Deportivo en Tea&Deportea (2013 - 2015)</h3>
-        <p class="parrafosInfo">
+        <h3 class="párrafos__título">Terciario - Periodismo Deportivo en Tea&Deportea (2013 - 2015)</h3>
+        <p class="párrafos__info">
           <a
             href="https://www.linkedin.com/in/nahuel-loiacono-b63917a0/detail/treasury/education:232516041/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAABV-MrsBAvi1Ccw_y7RzRtphqsIuw1tq30U%2C1635459123243)&section=education%3A232516041&treasuryCount=1"
             >Título Periodismo Deportivo</a
@@ -84,11 +84,11 @@
       </article>
 
       <article>
-        <h3>
+        <h3 class="párrafos__título">
           Secundario - Bachiller en Bienes y Servicios en Instituto Leonardo
           Murialdo (2007 - 2012)
         </h3>
-        <p class="parrafosInfo">
+        <p class="párrafos__info">
           <a
             href="https://www.linkedin.com/in/nahuel-loiacono-b63917a0/detail/treasury/education:737659267/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAABV-MrsBAvi1Ccw_y7RzRtphqsIuw1tq30U%2C1635464908798)&section=education%3A737659267&treasuryCount=1"
             >Título Bachiller</a
@@ -97,9 +97,12 @@
       </article>
 
       <article>
-        <h3>Cursos</h3>
+        <h3 class="párrafos__título">Cursos</h3>
         <section>
-          <table
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-12">
+            <table
             border="10"
             cellpadding="10"
             cellspacing="0"
@@ -111,7 +114,6 @@
                 <th>Instituto</th>
                 <th>Horas</th>
                 <th>Modalidad</th>
-                <th>Estado</th>
               </tr>
               <tr>
                 <td>2021</td>
@@ -119,7 +121,6 @@
                 <td>Coderhouse</td>
                 <td>40</td>
                 <td>Virtual</td>
-                <td>Próximamente</td>
               </tr>
               <tr>
                 <td>2021</td>
@@ -127,7 +128,6 @@
                 <td>Coderhouse</td>
                 <td>40</td>
                 <td>Virtual</td>
-                <td>Próximamente</td>
               </tr>
               <tr>
                 <td>2021</td>
@@ -135,7 +135,6 @@
                 <td>Coderhouse</td>
                 <td>40</td>
                 <td>Virtual</td>
-                <td>En curso</td>
               </tr>
               <tr>
                 <td>2021</td>
@@ -143,7 +142,6 @@
                 <td>Google & EOI</td>
                 <td>40</td>
                 <td>Virtual</td>
-                <td>En curso</td>
               </tr>
               <tr>
                 <td>2021</td>
@@ -151,7 +149,6 @@
                 <td>Google & IEI</td>
                 <td>40</td>
                 <td>Virtual</td>
-                <td>Finalizado</td>
               </tr>
               <tr>
                 <td>2021</td>
@@ -159,7 +156,6 @@
                 <td>Google & IEI</td>
                 <td>40</td>
                 <td>Virtual</td>
-                <td>Finalizado</td>
               </tr>
               <tr>
                 <td>2021</td>
@@ -167,7 +163,6 @@
                 <td>Gobierno de la Ciudad</td>
                 <td>40</td>
                 <td>Virtual</td>
-                <td>Finalizado</td>
               </tr>
               <tr>
                 <td>2016</td>
@@ -175,7 +170,6 @@
                 <td>Google & IAB Spain</td>
                 <td>40</td>
                 <td>Virtual</td>
-                <td>Finalizado</td>
               </tr>
               <tr>
                 <td>2016</td>
@@ -183,9 +177,10 @@
                 <td>CAC</td>
                 <td>30</td>
                 <td>Virtual</td>
-                <td>Finalizado</td>
               </tr>
-            </div>
+          </div>
+        </div>
+      </div>
           </table>
         </section>
       </article>

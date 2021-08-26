@@ -18,7 +18,7 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="archivo.css" />
+    <link rel="stylesheet" href="css/archivo.css" />
   </head>
 
   <body>
@@ -39,62 +39,6 @@
     </header>
 
     <main>
-      <div class="container-fluid">
-        <div class="row">
-            <article class="col-sm-6 col-md-3 col-lg-3">
-              <h3>Deportes</h3>
-              <div class="fondoPárrafos">
-                <p class="parrafosHobbies">- Fútbol</p>
-                <p class="parrafosHobbies">- Padel</p>
-                <p class="parrafosHobbies">- Ping Pong</p>
-                <p class="parrafosHobbies">- Tenis</p>
-              </div>
-            </article>
-
-            <article class="col-sm-6 col-md-3 col-lg-3">
-              <h3>Películas</h3>
-              <div class="fondoPárrafos">
-                <p class="parrafosHobbies">- El Padrino</p>
-                <p class="parrafosHobbies">- El secreto de sus ojos</p>
-                <p class="parrafosHobbies">- Gladiador</p>
-                <p class="parrafosHobbies">- Joker</p>
-                <p class="parrafosHobbies">- La isla siniestra</p>
-                <p class="parrafosHobbies">- Memento</p>
-                <p class="parrafosHobbies">- Milagros inesperados</p>
-                <p class="parrafosHobbies">- Seven</p>
-                <p class="parrafosHobbies">- Star Wars</p>
-                <p class="parrafosHobbies">- Sueños de libertad</p>
-              </div>
-            </article>
-
-            <article class="col-sm-6 col-md-3 col-lg-3">
-              <h3>Series</h3>
-              <div class="fondoPárrafos">
-                <p class="parrafosHobbies">- Breaking Bad</p>
-                <p class="parrafosHobbies">- Games of Thrones</p>
-                <p class="parrafosHobbies">- Los Simuladores</p>
-                <p class="parrafosHobbies">- Peaky Blinders</p>
-                <p class="parrafosHobbies">- Sherlock</p>
-                <p class="parrafosHobbies">- The Sinner</p>
-              </div>
-            </article>
-
-            <article class="col-sm-6 col-md-3 col-lg-3">
-              <h3>Libros</h3>
-              <div class="fondoPárrafos">
-                <p class="parrafosHobbies">- Big data</p>
-                <p class="parrafosHobbies">- El fútbol a sol y sombra</p>
-                <p class="parrafosHobbies">- La batalla del futuro</p>
-                <p class="parrafosHobbies">
-                  - Las venas abiertas de América Latina
-                </p>
-                <p class="parrafosHobbies">- Maldita Davis</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-
       <section>
         <div
           id="carouselExampleIndicators"
@@ -122,28 +66,68 @@
               data-bs-slide-to="2"
               aria-label="Slide 3"
             ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img
-                src="https://cdn.pixabay.com/photo/2021/08/20/12/47/gym-6560295_960_720.png"
-                class="d-block w-100"
-                alt="Deportes"
-              />
+              <article class="hobbies col-sm-12 col-lg-6">
+                <h3 class="párrafos__título">Deportes</h3>
+                <div class="párrafos__fondo">
+                  <p class="hobbies__párrafos">- Fútbol</p>
+                  <p class="hobbies__párrafos">- Padel</p>
+                  <p class="hobbies__párrafos">- Ping Pong</p>
+                  <p class="hobbies__párrafos">- Tenis</p>
+                </div>
+              </article>
             </div>
             <div class="carousel-item">
-              <img
-                src="https://cdn.pixabay.com/photo/2013/07/13/14/03/film-162028_960_720.png"
-                class="d-block w-100"
-                alt="Películas y series"
-              />
+              <article class="hobbies col-sm-12 col-lg-6">
+                <h3 class="párrafos__título">Películas</h3>
+                <div class="párrafos__fondo">
+                  <p class="hobbies__párrafos">- El Padrino</p>
+                  <p class="hobbies__párrafos">- El secreto de sus ojos</p>
+                  <p class="hobbies__párrafos">- Gladiador</p>
+                  <p class="hobbies__párrafos">- Joker</p>
+                  <p class="hobbies__párrafos">- La isla siniestra</p>
+                  <p class="hobbies__párrafos">- Memento</p>
+                  <p class="hobbies__párrafos">- Milagros inesperados</p>
+                  <p class="hobbies__párrafos">- Seven</p>
+                  <p class="hobbies__párrafos">- Star Wars</p>
+                  <p class="hobbies__párrafos">- Sueños de libertad</p>
+                </div>
+              </article>
             </div>
             <div class="carousel-item">
-              <img
-                src="https://cdn.pixabay.com/photo/2016/02/16/21/07/books-1204029_960_720.jpg"
-                class="d-block w-100"
-                alt="Libros"
-              />
+              <article class="hobbies col-sm-12 col-lg-6">
+                <h3 class="párrafos__título">Series</h3>
+                <div class="párrafos__fondo">
+                  <p class="hobbies__párrafos">- Breaking Bad</p>
+                  <p class="hobbies__párrafos">- Games of Thrones</p>
+                  <p class="hobbies__párrafos">- Los Simuladores</p>
+                  <p class="hobbies__párrafos">- Peaky Blinders</p>
+                  <p class="hobbies__párrafos">- Sherlock</p>
+                  <p class="hobbies__párrafos">- The Sinner</p>
+                </div>
+              </article>
+            </div>
+            <div class="carousel-item">
+              <article class="hobbies col-sm-12 col-lg-6">
+                <h3 class="párrafos__título">Libros</h3>
+                <div class="párrafos__fondo">
+                  <p class="hobbies__párrafos">- Big data</p>
+                  <p class="hobbies__párrafos">- El fútbol a sol y sombra</p>
+                  <p class="hobbies__párrafos">- La batalla del futuro</p>
+                  <p class="hobbies__párrafos">
+                    - Las venas abiertas de América Latina
+                  </p>
+                  <p class="hobbies__párrafos">- Maldita Davis</p>
+                </div>
+              </article>
             </div>
           </div>
           <button

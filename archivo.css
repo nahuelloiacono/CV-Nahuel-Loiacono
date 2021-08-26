@@ -1,20 +1,85 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+@charset "UTF-8";
+/* Contacto */
+/* Form */
+form {
+  background-color: #fdc832;
+  border: none;
+  color: black;
+  display: block;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding: 25px;
+  text-align: center; }
+  form .form__campos {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    text-align: center; }
+  form .form__opciones {
+    display: inline-block;
+    align-items: center;
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 1px;
+    word-spacing: 1px; }
+  form .form__párrafos {
+    color: black;
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase; }
+  form fieldset {
+    border: black;
+    border-style: double;
+    border-width: 10px; }
 
-/* Mobile */
+/* Formación */
+/* Table */
+table {
+  background: linear-gradient(to bottom, #fdc832, #ffd78c);
+  background-color: #fdc832;
+  border-color: black;
+  border-spacing: 0px;
+  border-width: 5px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding: 0px;
+  text-align: center;
+  width: 100%; }
+  table th {
+    border: black 5px solid;
+    background-color: #ffc014;
+    color: black;
+    font-weight: bolder; }
+  table td {
+    border: black 3px solid; }
 
-/* Adecuar CSS a tamaño móvil */
+/* Hobbies */
+.hobbies {
+  align-items: center;
+  width: 100%; }
 
-body {
-  background-color: white;
-}
+.hobbies__párrafos {
+  background-color: #fdc832;
+  color: black;
+  display: grid;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase; }
 
 /* Encabezados */
-
 h1 {
-  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 166, 0));
+  background: linear-gradient(to bottom, black, #ffa600);
   color: white;
   display: block;
   font-family: Arial, Helvetica, sans-serif;
@@ -28,25 +93,21 @@ h1 {
   animation-timing-function: ease-in;
   animation-duration: 10s;
   animation-delay: 0s;
-}
+  width: 100%; }
 
 @keyframes efectoTitulo {
   25% {
     font-size: 20px;
-    color: orange;
-  }
+    color: orange; }
   50% {
     font-size: 25px;
-    color: red;
-  }
+    color: red; }
   75% {
     font-size: 30px;
-    color: black;
-  }
-}
+    color: black; } }
 
 h2 {
-  background-color: rgb(255, 170, 30);
+  background-color: #ffaa1e;
   color: white;
   display: block;
   font-family: "Times New Roman", Times, serif;
@@ -54,109 +115,89 @@ h2 {
   font-weight: bold;
   letter-spacing: 1px;
   padding: 20px 10px 20px 10px;
-  text-align: center;
-}
-
-article {
-  padding: 0px;
-}
-
-article h3 {
-  background-color: rgb(15, 15, 15);
-  color: orange;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  letter-spacing: 1px;
-  line-height: 1.5;
-  padding: 15px 10px 15px 10px;
-  text-align: center;
-}
+  text-align: center; }
 
 /* Nav */
-
 nav ul {
-  background: radial-gradient(rgb(73, 73, 73), black);
+  background: radial-gradient(#494949, black);
   display: block;
   letter-spacing: 1px;
   line-height: 1.5;
   text-align: center;
-}
-
-nav ul li {
-  background: radial-gradient(rgb(255, 164, 28), rgb(255, 255, 255));
-  border-color: rgb(255, 166, 0);
-  border-style: groove;
-  border-width: 10px;
-  display: inline-block;
-  font-family: "Times New Roman", Times, serif;
-  font-style: normal;
-  font-weight: bolder;
-  letter-spacing: 1px;
-  list-style-type: none;
-  margin: 5px;
-  padding: 5px;
-  position: sticky;
-  text-transform: uppercase;
-}
+  width: 100%; }
+  nav ul li {
+    background: radial-gradient(#ffa41c, white);
+    border-color: #ffa600;
+    border-style: groove;
+    border-width: 5px;
+    display: inline-block;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    position: sticky;
+    text-transform: uppercase; }
 
 nav ul li:hover {
-  transform: scale(1.1, 1.1);
-}
+  transform: scale(1.1, 1.1); }
 
 /* Enlaces */
-
 ul li a {
   color: black;
   text-decoration: none;
-  transition: all 0s;
-}
+  transition: all 0s; }
 
 ul li a:hover {
-  color: orangered;
-}
+  color: orangered; }
 
 div a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 p a {
   color: blue;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 /* Párrafos */
-
-.fondoPárrafos {
-  background-color: rgb(253, 200, 50);
-}
-
-.parrafosInfo {
-  background-color: rgb(253, 200, 50);
-  color: black;
-  display: block;
-  font-family: "Times New Roman", Times, serif;
-  font-style: italic;
-  font-weight: normal;
-  letter-spacing: 1px;
-  line-height: 1.5;
-  padding: 0px;
-  text-align: center;
-  text-transform: uppercase;
-}
+article {
+  padding: 0px; }
+  article .párrafos__título {
+    background-color: #0f0f0f;
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 15px 10px 15px 10px;
+    text-align: center; }
+  article .párrafos__fondo {
+    background-color: #fdc832; }
+  article .párrafos__info {
+    background-color: #fdc832;
+    color: black;
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 0px;
+    text-align: center;
+    text-transform: uppercase; }
 
 /* Footer */
-
 .footer {
   background-color: white;
-  color: rgb(0, 0, 0);
+  color: black;
   font-family: "Courier New", Courier, monospace;
   font-style: italic;
   letter-spacing: 1px;
   line-height: 1.5;
   text-align: center;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .footerFlex {
   align-content: center;
@@ -164,8 +205,7 @@ p a {
   display: flex;
   flex-direction: row;
   flex-wrap: nowwrap;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .footerFlexHijos {
   align-self: auto;
@@ -176,122 +216,23 @@ p a {
   flex-grow: initial;
   flex-shrink: auto;
   order: auto;
-  padding: 10px 10px 10px 10px;
-}
+  padding: 10px 10px 10px 10px; }
 
 footer section img:hover {
-  transform: scale(1.5, 1.5);
-}
+  transform: scale(1.5, 1.5); }
 
 small {
-  color: rgb(30, 30, 30);
-  font-family: "Courier New", Courier, monospace;
-}
+  color: #1e1e1e;
+  font-family: "Courier New", Courier, monospace; }
 
-/* Formación */
-
-/* Table */
-
-table {
-  background: linear-gradient(to bottom, rgb(253, 200, 50), rgb(255, 215, 140));
-  background-color: rgb(253, 200, 50);
-  border-color: rgb(0, 0, 0);
-  border-spacing: 0px;
-  border-width: 5px;
-  color: black;
-  font-family: "Times New Roman", Times, serif;
-  font-style: italic;
-  letter-spacing: 1px;
-  line-height: 1.5;
-  padding: 0px;
-  text-align: center;
-  width: 80%;
-}
-
-th {
-  border: black 5px solid;
-  background-color: rgb(255, 192, 20);
-  color: black;
-  font-weight: bolder;
-}
-
-td {
-  border: black 3px solid;
-}
-
-/* Hobbies */
-
-.parrafosHobbies {
-  background-color: rgb(253, 200, 50);
-  color: black;
-  display: grid;
-  font-family: "Times New Roman", Times, serif;
-  font-style: italic;
-  font-weight: normal;
-  letter-spacing: 1px;
-  line-height: 1.5;
-  padding: 5px;
-  text-align: left;
-  text-transform: uppercase;
-}
-
-.carousel {
-  background-color: black;
-}
-
-/* Contacto */
-
-/* Form */
-
-form {
-  background-color: rgb(253, 200, 50);
-  border: none;
-  color: black;
-  display: block;
-  letter-spacing: 1px;
-  line-height: 1.5;
-  padding: 25px;
-  text-align: center;
-}
-
-.estiloCamposFormulario {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bolder;
-  text-align: center;
-}
-
-.opcionesFormulario {
-  font-family: "Times New Roman", Times, serif;
-  letter-spacing: 1px;
-  word-spacing: 5px;
-}
-
-.parrafosFormulario {
-  color: black;
-  display: block;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: normal;
-  letter-spacing: 1px;
-  line-height: 1.5;
-  padding: 10px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-fieldset {
-  border: black;
-  border-style: double;
-  border-width: 10px;
-}
+/* Mobile */
+@media screen and (min-width: 1px) and (max-width: 767px) {
+  /* Agregar modificaciones */ }
 
 /* Tablet */
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* Agregar modificaciones */
-}
+  /* Agregar modificaciones */ }
 
 /* Desktop */
-
 @media screen and (min-width: 1024px) {
-  /* Agregar modificaciones */
-}
+  /* Agregar modificaciones */ }

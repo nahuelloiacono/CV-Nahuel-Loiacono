@@ -1,0 +1,48 @@
+@import "variables";
+
+/* Contacto */
+
+/* Form */
+
+form {
+  background-color: $color-primario;
+  border: none;
+  color: $color-secundario;
+  display: block;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding: 25px;
+  text-align: center;
+
+  .form__campos {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  .form__opciones {
+    display: inline-block;
+    align-items: center;
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+  }
+
+  .form__párrafos {
+    color: $color-secundario;
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  fieldset {
+    border: $color-secundario;
+    border-style: double;
+    border-width: 10px;
+  }
+}

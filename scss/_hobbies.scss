@@ -1,0 +1,22 @@
+@import "variables";
+
+/* Hobbies */
+
+.hobbies {
+  align-items: center;
+  width: 100%;
+}
+
+.hobbies__párrafos {
+  background-color: $color-primario;
+  color: $color-secundario;
+  display: grid;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}

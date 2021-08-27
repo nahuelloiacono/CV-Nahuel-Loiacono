@@ -1,0 +1,52 @@
+@import "variables";
+
+/* Nav */
+
+nav ul {
+  background: radial-gradient(rgb(73, 73, 73), $color-secundario);
+  display: block;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: center;
+  width: 100%;
+  li {
+    background: radial-gradient(rgb(255, 164, 28), $color-terciario);
+    border-color: rgb(255, 166, 0);
+    border-style: groove;
+    border-width: 5px;
+    display: inline-block;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    position: sticky;
+    text-transform: uppercase;
+  }
+}
+
+nav ul li:hover {
+  transform: scale(1.1, 1.1);
+}
+/* Enlaces */
+
+ul li a {
+  color: $color-secundario;
+  text-decoration: none;
+  transition: all 0s;
+}
+
+ul li a:hover {
+  color: orangered;
+}
+
+div a {
+  text-decoration: none;
+}
+
+p a {
+  color: blue;
+  text-decoration: none;
+}

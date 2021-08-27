@@ -1,0 +1,127 @@
+@import "contacto";
+@import "formacion";
+@import "footer";
+@import "globales";
+@import "hobbies";
+@import "nav_y_enlaces";
+@import "variables";
+
+/* Encabezados */
+
+h1 {
+  background: linear-gradient(to bottom, $color-secundario, rgb(255, 182, 45));
+  color: $color-terciario;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  animation-name: cambio_color_h1;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 8s;
+  animation-delay: 0s;
+
+  @keyframes cambio_color_h1 {
+    0% {
+      color: white;
+    }
+    25% {
+      color: orange;
+    }
+    50% {
+      color: black;
+    }
+    75% {
+      color: white;
+    }
+  }
+}
+
+h2 {
+  background-color: rgb(255, 188, 81);
+  color: $color-terciario;
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 20px 10px 20px 10px;
+  text-align: center;
+  animation-name: cambio_color_h2;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 4s;
+  animation-delay: 0s;
+
+  @keyframes cambio_color_h2 {
+    0% {
+      color: white;
+    }
+    50% {
+      color: black;
+    }
+  }
+}
+
+/* Párrafos */
+
+article {
+  padding: 0px;
+
+  .párrafos__título {
+    background-color: $color-secundario;
+    color: rgb(255, 189, 65);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+  }
+  .párrafos__fondo {
+    background-color: $color-primario;
+  }
+  .párrafos__info {
+    background-color: $color-primario;
+    color: $color-secundario;
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 0px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.imagen__Nahue {
+  border: solid $color-secundario 2px;
+  display: block;
+  margin: auto;
+  align-content: center;
+}
+
+/* Mobile */
+
+@media screen and (min-width: 1px) and (max-width: 767px) {
+  /* Agregar modificaciones */
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Agregar modificaciones */
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1024px) {
+  /* Agregar modificaciones */
+}

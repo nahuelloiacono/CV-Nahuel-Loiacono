@@ -1,0 +1,44 @@
+@import "variables";
+
+/* Footer */
+
+.footer {
+  background-color: rgb(255, 206, 115);
+  color: $color-secundario;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+
+  &Flex {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowwrap;
+    justify-content: center;
+
+    &Hijos {
+      align-self: auto;
+      font-family: "Courier New", Courier, monospace;
+      font-style: normal;
+      font-weight: normal;
+      flex-basis: initial;
+      flex-grow: initial;
+      flex-shrink: auto;
+      order: auto;
+      padding: 10px 10px 10px 10px;
+    }
+  }
+}
+
+footer section img:hover {
+  transform: scale(1.5, 1.5);
+}
+
+small {
+  color: rgb(30, 30, 30);
+  font-family: "Courier New", Courier, monospace;
+}

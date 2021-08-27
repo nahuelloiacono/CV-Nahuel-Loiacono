@@ -1,0 +1,32 @@
+@import "variables";
+
+/* Formación */
+
+/* Table */
+
+table {
+  background: linear-gradient(to bottom, rgb(253, 200, 50), rgb(255, 215, 140));
+  background-color: rgb(253, 200, 50);
+  border-color: $color-secundario;
+  border-spacing: 0px;
+  border-width: 5px;
+  color: $color-secundario;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+
+  th {
+    border: $color-secundario 5px solid;
+    background-color: rgb(255, 192, 20);
+    color: $color-secundario;
+    font-weight: bolder;
+  }
+
+  td {
+    border: $color-secundario 3px solid;
+  }
+}

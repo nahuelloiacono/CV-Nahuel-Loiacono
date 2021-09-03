@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixins";
 
 /* Hobbies */
 
@@ -8,8 +9,7 @@
 }
 
 .hobbies__párrafos {
-  background-color: $color-primario;
-  color: $color-secundario;
+  @include colorLetraYFondo($color-secundario, $color-primario);
   display: grid;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;

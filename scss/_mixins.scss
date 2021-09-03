@@ -1,0 +1,11 @@
+@import "variables";
+
+@mixin sizes($height, $width) {
+  height: $height;
+  width: $width;
+}
+
+@mixin colorLetraYFondo($color-letra, $color-fondo) {
+  color: $color-letra;
+  background-color: $color-fondo;
+}

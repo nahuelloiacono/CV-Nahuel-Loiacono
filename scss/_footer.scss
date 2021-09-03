@@ -1,12 +1,12 @@
 @import "variables";
+@import "mixins";
 
 /* Footer */
 
 .footer {
-  background-color: rgb(255, 206, 115);
-  color: $color-secundario;
   font-family: "Courier New", Courier, monospace;
   font-style: italic;
+  @include colorLetraYFondo($color-secundario, rgb(255, 206, 115));
   letter-spacing: 1px;
   line-height: 1.5;
   text-align: center;

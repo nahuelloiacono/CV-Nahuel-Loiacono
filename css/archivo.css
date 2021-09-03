@@ -2,10 +2,10 @@
 /* Contacto */
 /* Form */
 form {
-  background-color: #fdd790;
   border: none;
-  color: #1f1f1f;
   display: block;
+  color: #1f1f1f;
+  background-color: #fdd790;
   letter-spacing: 1px;
   line-height: 1.5;
   padding: 25px;
@@ -51,13 +51,13 @@ form fieldset {
 table {
   background: -webkit-gradient(linear, left top, left bottom, from(#fdc832), to(#ffd78c));
   background: linear-gradient(to bottom, #fdc832, #ffd78c);
-  background-color: #fdc832;
   border-color: #1f1f1f;
   border-spacing: 0px;
   border-width: 5px;
-  color: #1f1f1f;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
+  color: #1f1f1f;
+  background-color: #fdc832;
   letter-spacing: 1px;
   line-height: 1.5;
   padding: 0px;
@@ -67,9 +67,9 @@ table {
 
 table th {
   border: #1f1f1f 5px solid;
-  background-color: #ffc014;
-  color: #1f1f1f;
   font-weight: bolder;
+  color: #1f1f1f;
+  background-color: #ffc014;
 }
 
 table td {
@@ -78,10 +78,10 @@ table td {
 
 /* Footer */
 .footer {
-  background-color: #ffce73;
-  color: #1f1f1f;
   font-family: "Courier New", Courier, monospace;
   font-style: italic;
+  color: #1f1f1f;
+  background-color: #ffce73;
   letter-spacing: 1px;
   line-height: 1.5;
   text-align: center;
@@ -156,8 +156,8 @@ body {
 }
 
 .hobbies__párrafos {
-  background-color: #fdd790;
   color: #1f1f1f;
+  background-color: #fdd790;
   display: -ms-grid;
   display: grid;
   font-family: "Times New Roman", Times, serif;
@@ -234,9 +234,10 @@ h1 {
   font-style: normal;
   font-weight: bolder;
   letter-spacing: 1px;
+  height: 100%;
+  width: 100%;
   padding: 20px;
   text-align: center;
-  width: 100%;
   -webkit-animation-name: cambio_color_h1;
           animation-name: cambio_color_h1;
   -webkit-animation-iteration-count: infinite;
@@ -280,12 +281,12 @@ h1 {
 }
 
 h2 {
-  background-color: #ffbc51;
-  color: #fafafa;
   display: block;
   font-family: "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: bold;
+  color: #fafafa;
+  background-color: #ffbc51;
   letter-spacing: 1px;
   padding: 20px 10px 20px 10px;
   text-align: center;
@@ -325,11 +326,11 @@ article {
 }
 
 article .párrafos__título {
-  background-color: #1f1f1f;
-  color: #ffbd41;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
   font-weight: bold;
+  color: #ffbd41;
+  background-color: #1f1f1f;
   letter-spacing: 1px;
   line-height: 1.5;
   padding: 15px 10px 15px 10px;
@@ -341,12 +342,12 @@ article .párrafos__fondo {
 }
 
 article .párrafos__info {
-  background-color: #fdd790;
-  color: #1f1f1f;
   display: block;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: normal;
+  color: #1f1f1f;
+  background-color: #fdd790;
   letter-spacing: 1px;
   line-height: 1.5;
   padding: 0px;
@@ -355,11 +356,12 @@ article .párrafos__info {
 }
 
 .imagen__Nahue {
-  border: solid #1f1f1f 2px;
-  display: block;
-  margin: auto;
   -ms-flex-line-pack: center;
       align-content: center;
+  border: solid #1f1f1f 2px;
+  margin: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 /* Mobile */

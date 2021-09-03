@@ -1,14 +1,14 @@
 @import "variables";
+@import "mixins";
 
 /* Contacto */
 
 /* Form */
 
 form {
-  background-color: $color-primario;
   border: none;
-  color: $color-secundario;
   display: block;
+  @include colorLetraYFondo($color-secundario, $color-primario);
   letter-spacing: 1px;
   line-height: 1.5;
   padding: 25px;

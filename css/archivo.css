@@ -358,7 +358,6 @@ article .párrafos__info {
 .imagen__Nahue {
   -ms-flex-line-pack: center;
       align-content: center;
-  border: solid #1f1f1f 2px;
   margin: auto;
   -o-object-fit: contain;
      object-fit: contain;

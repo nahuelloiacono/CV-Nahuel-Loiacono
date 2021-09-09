@@ -9,11 +9,11 @@
 }
 
 .hobbies__párrafos {
-  @include colorLetraYFondo($color-secundario, $color-primario);
   display: grid;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: normal;
+  @include colorLetraYFondo($color-secundario, $color-primario);
   letter-spacing: 1px;
   line-height: 1.5;
   padding: 10px;

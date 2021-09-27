@@ -16,12 +16,16 @@
       content="NAHUEL LOIACONO, CV, CURRICULUM VITAE, HOBBIES, GUSTOS, DEPORTES, SERIES, PELÍCULAS, LIBROS"
     />
 
+    <!-- Bootstrap -->
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
+
+    <!-- CSS -->
 
     <link rel="stylesheet" href="css/archivo.css" />
   </head>
@@ -36,29 +40,72 @@
         </div>
       </div>
 
+      <!-- Nav -->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand text-center" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div>
+              <ul class="navbar-nav">
+                <li>
+                  <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="trabajos.html">Trabajos</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="formacion.html">Formación</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="hobbies.html">Hobbies</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <h2>AFICIONES</h2>
+
+    <!-- Imagen propia con URL de Facebook -->
+
+    <main>
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12">
-            <nav>
-              <ul>
-                <li><a href="index.html"> Sobre mí</a></li>
-                <li><a href="trabajos.html">Trabajos</a></li>
-                <li><a href="formacion.html">Formación</a></li>
-                <li><a href="hobbies.html">Hobbies</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-              </ul>
-            </nav>
+            <div class="text-center">
+              <img
+                class="imagen__Nahue"
+                src="https://scontent.faep8-2.fna.fbcdn.net/v/t1.6435-9/155559767_10222722903439702_7747495779518654432_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=730e14&_nc_ohc=DhqJljNWteQAX_ToMr8&_nc_ht=scontent.faep8-2.fna&oh=a1010e8ec515f9b0720f7e94340ef0dd&oe=61770FB2"
+                class="rounded"
+                alt="Nahuel Loiacono"
+                width="60%"
+                height="300"
+              />
+            </div>
           </div>
         </div>
       </div>
-    </header>
 
-    <h2>HOBBIES</h2>
+      <!-- Carousel de hobbies -->
 
-    <!–Agregar imagen propia–>
-
-    <main>
-      <section>
+      <section style="margin-top: 10px">
         <div
           id="carouselExampleIndicators"
           class="carousel slide"
@@ -173,9 +220,9 @@
       </section>
     </main>
 
-    <footer class="footer">
-      <!–Pie de página con redes sociales propias–>
+    <!-- Footer con redes sociales -->
 
+    <footer class="footer">
       <section class="footerFlex">
         <p class="footerFlexHijos">¡ Follow me !</p>
         <div class="footerFlexHijos">
@@ -227,6 +274,8 @@
       </section>
       <small>Diseñado por Nahuel Loiacono - 2021</small>
     </footer>
+
+    <!-- JavaScript -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"

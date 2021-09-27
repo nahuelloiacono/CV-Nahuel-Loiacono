@@ -3,7 +3,7 @@
 form {
   border: none;
   display: block;
-  color: #1f1f1f;
+  color: #323232;
   background-color: #fdd790;
   letter-spacing: 1px;
   line-height: 1.5;
@@ -28,7 +28,7 @@ form .form__opciones {
 }
 
 form .form__párrafos {
-  color: #1f1f1f;
+  color: #323232;
   display: block;
   font-family: "Times New Roman", Times, serif;
   font-weight: normal;
@@ -40,7 +40,7 @@ form .form__párrafos {
 }
 
 form fieldset {
-  border: #1f1f1f;
+  border: #323232;
   border-style: double;
   border-width: 10px;
 }
@@ -50,12 +50,12 @@ form fieldset {
 table {
   background: -webkit-gradient(linear, left top, left bottom, from(#fdc832), to(#ffd78c));
   background: linear-gradient(to bottom, #fdc832, #ffd78c);
-  border-color: #1f1f1f;
+  border-color: #323232;
   border-spacing: 0px;
   border-width: 5px;
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
-  color: #1f1f1f;
+  color: #323232;
   background-color: #fdc832;
   letter-spacing: 1px;
   line-height: 1.5;
@@ -65,21 +65,21 @@ table {
 }
 
 table th {
-  border: #1f1f1f 5px solid;
+  border: #323232 5px solid;
   font-weight: bolder;
-  color: #1f1f1f;
+  color: #323232;
   background-color: #ffc014;
 }
 
 table td {
-  border: #1f1f1f 3px solid;
+  border: #323232 3px solid;
 }
 
 /* Footer */
 .footer {
   font-family: "Courier New", Courier, monospace;
   font-style: italic;
-  color: #1f1f1f;
+  color: #323232;
   background-color: #ffce73;
   letter-spacing: 1px;
   line-height: 1.5;
@@ -160,7 +160,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: normal;
-  color: #1f1f1f;
+  color: #323232;
   background-color: #fdd790;
   letter-spacing: 1px;
   line-height: 1.5;
@@ -170,21 +170,30 @@ body {
 }
 
 /* Nav */
-nav ul {
-  background: radial-gradient(#494949, #1f1f1f);
-  display: block;
+nav div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: radial-gradient(#ff9741, #323232);
+  display: inline-block;
   letter-spacing: 1px;
-  line-height: 1.5;
-  text-align: center;
   width: 100%;
 }
 
-nav ul li {
+nav div ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav div ul li a {
   background: radial-gradient(#ffa41c, #fafafa);
   border-color: #ffa600;
   border-style: groove;
   border-width: 5px;
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-family: "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: bolder;
@@ -194,7 +203,14 @@ nav ul li {
   padding: 5px;
   position: -webkit-sticky;
   position: sticky;
+  text-align: center;
   text-transform: uppercase;
+}
+
+.logoHamburguesaCentrado {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 nav ul li:hover {
@@ -204,7 +220,7 @@ nav ul li:hover {
 
 /* Enlaces */
 ul li a {
-  color: #1f1f1f;
+  color: #323232;
   text-decoration: none;
   -webkit-transition: all 0s;
   transition: all 0s;
@@ -225,10 +241,10 @@ p a {
 
 /* Encabezados */
 h1 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#1f1f1f), to(#ffb62d));
-  background: linear-gradient(to bottom, #1f1f1f, #ffb62d);
+  background: -webkit-gradient(linear, left top, left bottom, from(#323232), to(#ffb62d));
+  background: linear-gradient(to bottom, #323232, #ffb62d);
   color: #fafafa;
-  display: block;
+  display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bolder;
@@ -329,7 +345,7 @@ article .párrafos__título {
   font-style: normal;
   font-weight: bold;
   color: #ffbd41;
-  background-color: #1f1f1f;
+  background-color: #323232;
   letter-spacing: 1px;
   line-height: 1.5;
   padding: 15px 10px 15px 10px;
@@ -345,7 +361,7 @@ article .párrafos__info {
   font-family: "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: normal;
-  color: #1f1f1f;
+  color: #323232;
   background-color: #fdd790;
   letter-spacing: 1px;
   line-height: 1.5;

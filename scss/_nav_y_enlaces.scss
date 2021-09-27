@@ -3,20 +3,23 @@
 
 /* Nav */
 
-nav ul {
-  background: radial-gradient(rgb(73, 73, 73), $color-secundario);
-  display: block;
+nav div {
+  align-items: center;
+  background: radial-gradient(rgb(255, 151, 65), $color-secundario);
+  display: inline-block;
   letter-spacing: 1px;
-  line-height: 1.5;
-  text-align: center;
   width: 100%;
 
-  li {
+  ul {
+    justify-content: center;
+  }
+
+  ul li a {
     background: radial-gradient(rgb(255, 164, 28), $color-terciario);
     border-color: rgb(255, 166, 0);
     border-style: groove;
     border-width: 5px;
-    display: inline-block;
+    display: flex;
     font-family: "Times New Roman", Times, serif;
     font-style: normal;
     font-weight: bolder;
@@ -25,8 +28,13 @@ nav ul {
     margin: 5px;
     padding: 5px;
     position: sticky;
+    text-align: center;
     text-transform: uppercase;
   }
+}
+
+.logoHamburguesaCentrado {
+  align-items: center;
 }
 
 nav ul li:hover {

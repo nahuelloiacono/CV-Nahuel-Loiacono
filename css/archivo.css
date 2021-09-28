@@ -170,30 +170,30 @@ body {
 }
 
 /* Nav */
-nav div {
+header {
+  display: block;
+}
+
+header nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: radial-gradient(#ff9741, #323232);
-  display: inline-block;
+  background: radial-gradient(#ff963f, #323232);
   letter-spacing: 1px;
-  width: 100%;
 }
 
-nav div ul {
+header nav ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: auto;
 }
 
-nav div ul li a {
+header nav ul li a {
   background: radial-gradient(#ffa41c, #fafafa);
   border-color: #ffa600;
   border-style: groove;
-  border-width: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  border-width: 2px;
   font-family: "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: bolder;
@@ -205,12 +205,6 @@ nav div ul li a {
   position: sticky;
   text-align: center;
   text-transform: uppercase;
-}
-
-.logoHamburguesaCentrado {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 nav ul li:hover {
@@ -240,18 +234,14 @@ p a {
 }
 
 /* Encabezados */
-h1 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#323232), to(#ffb62d));
-  background: linear-gradient(to bottom, #323232, #ffb62d);
+h2 {
   color: #fafafa;
   display: inline-block;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: bolder;
-  letter-spacing: 1px;
-  height: 100%;
-  width: 100%;
-  padding: 20px;
+  letter-spacing: 2px;
+  padding: 10px;
   text-align: center;
   -webkit-animation-name: cambio_color_h1;
           animation-name: cambio_color_h1;
@@ -259,8 +249,8 @@ h1 {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-duration: 8s;
-          animation-duration: 8s;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
 }
@@ -295,15 +285,16 @@ h1 {
   }
 }
 
-h2 {
+h3 {
   display: block;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: bold;
   color: #fafafa;
   background-color: #ffbc51;
   letter-spacing: 1px;
-  padding: 20px 10px 20px 10px;
+  margin-top: 5px;
+  padding: 10px 5px 10px 5px;
   text-align: center;
   -webkit-animation-name: cambio_color_h2;
           animation-name: cambio_color_h2;
@@ -348,7 +339,7 @@ article .párrafos__título {
   background-color: #323232;
   letter-spacing: 1px;
   line-height: 1.5;
-  padding: 15px 10px 15px 10px;
+  padding: 7.5px 5px 7.5px 5px;
   text-align: center;
 }
 

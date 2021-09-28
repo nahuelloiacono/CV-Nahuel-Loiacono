@@ -249,8 +249,8 @@ h2 {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
+  -webkit-animation-duration: 8s;
+          animation-duration: 8s;
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
 }

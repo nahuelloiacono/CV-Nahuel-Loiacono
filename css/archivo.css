@@ -1,4 +1,20 @@
 @charset "UTF-8";
+
+/* Parrafo en construcción */
+
+.parrafoEnConstruccion {
+  background-color: rgb(255, 20, 20);
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin: 25px;
+  padding: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* Contacto */
 form {
   border: none;
@@ -19,8 +35,8 @@ form .form__campos {
 
 form .form__opciones {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: inline-block;
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 1px;
@@ -48,7 +64,13 @@ form fieldset {
 /* Formación */
 /* Table */
 table {
-  background: -webkit-gradient(linear, left top, left bottom, from(#fdc832), to(#ffd78c));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fdc832),
+    to(#ffd78c)
+  );
   background: linear-gradient(to bottom, #fdc832, #ffd78c);
   border-color: #323232;
   border-spacing: 0px;
@@ -89,47 +111,47 @@ table td {
 
 .footerFlex {
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: nowwrap;
-      flex-wrap: nowwrap;
+  flex-wrap: nowwrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .footerFlexHijos {
   -ms-flex-item-align: auto;
-      -ms-grid-row-align: auto;
-      align-self: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
   -ms-flex-preferred-size: initial;
-      flex-basis: initial;
+  flex-basis: initial;
   -webkit-box-flex: initial;
-      -ms-flex-positive: initial;
-          flex-grow: initial;
+  -ms-flex-positive: initial;
+  flex-grow: initial;
   -ms-flex-negative: auto;
-      flex-shrink: auto;
+  flex-shrink: auto;
   font-family: "Courier New", Courier, monospace;
   font-style: normal;
   font-weight: normal;
   -webkit-box-ordinal-group: auto;
-      -ms-flex-order: auto;
-          order: auto;
+  -ms-flex-order: auto;
+  order: auto;
   padding: 10px 10px 10px 10px;
 }
 
 footer section img:hover {
   -webkit-transform: scale(1.5, 1.5);
-          transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
 }
 
 small {
@@ -149,8 +171,8 @@ body {
 /* Hobbies */
 .hobbies {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 100%;
 }
 
@@ -176,16 +198,16 @@ header {
 
 header nav {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: radial-gradient(#ff963f, #323232);
   letter-spacing: 1px;
 }
 
 header nav ul {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin: auto;
 }
 
@@ -209,7 +231,7 @@ header nav ul li a {
 
 nav ul li:hover {
   -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }
 
 /* Enlaces */
@@ -244,15 +266,15 @@ h2 {
   padding: 10px;
   text-align: center;
   -webkit-animation-name: cambio_color_h1;
-          animation-name: cambio_color_h1;
+  animation-name: cambio_color_h1;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
   -webkit-animation-duration: 8s;
-          animation-duration: 8s;
+  animation-duration: 8s;
   -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 @-webkit-keyframes cambio_color_h1 {
@@ -297,15 +319,15 @@ h3 {
   padding: 10px 5px 10px 5px;
   text-align: center;
   -webkit-animation-name: cambio_color_h2;
-          animation-name: cambio_color_h2;
+  animation-name: cambio_color_h2;
   -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
   -webkit-animation-duration: 4s;
-          animation-duration: 4s;
+  animation-duration: 4s;
   -webkit-animation-delay: 0s;
-          animation-delay: 0s;
+  animation-delay: 0s;
 }
 
 @-webkit-keyframes cambio_color_h2 {
@@ -363,10 +385,10 @@ article .párrafos__info {
 
 .imagen__Nahue {
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   margin: auto;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 /* Mobile */
